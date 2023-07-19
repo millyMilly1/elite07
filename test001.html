@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: black;
+    padding-top: 0px;
+    text-align: center;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+
+  .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+ body{
+    padding-top: 193px;
+ }
+.header-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav li {
+    margin: 10px 0;
+  }
+}
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product {
+  text-align: center;
+  flex: 0 0 250px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.product h2 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.product button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 6px;
+    text-align: center;
+  }
+ #contacts{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  div ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+</style>
+ <link rel="stylesheet" type="text/css" href="C:\Users\evely\OneDrive\Desktop\elite07\test.css"> 
+  <title>TEBC</title>
+
+</head>
+
+<script>
+  document.getElementById('viewbutton').addEventListener('click', function(){
+   window.location.href = 'https://w' 
+  })
+</script>
+
+<body>
+  <header>
+    <div class="header-container">
+      <a href="#"><img src="Ellipse 1.png" alt="Elite" class="head-logo"></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="aboutUs.html">About</a></li>
+          <li><a href="#contacts">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>TEBC</h1>
+    <p>Shop our latest 2023 Summer & Fall collections:</p>
+
+    <div class="product-grid">
+      <div class="product">
+        <img src="WhatsApp Image 2023-07-18 at 08.42.40 (5).jpeg" alt="Product 1">
+        <h2>TEBC collections</h2>
+        <button id="viewbutton">view</button>
+      </div>
+
+    </div>
+
+
+ <!--Top product category-->
+    <hr>
+    <h1>Fall Collections</h1>
+    <p>Shop our latest 2023 release</p>
+    <div class="product-grid">
+      <div class="product">
+        <img src="DSC04123-1.JPG" alt="Product 1">
+        <h2>Bean caps</h2>
+        <button>view</button>
+      </div>
+    </div>
+
+    
+    <!--first product category-->
+    <hr>
+    <div class="product-grid">
+      <div class="product">
+        <img src="WhatsApp Image 2023-07-18 at 08.42.40.jpeg" alt="Product 1">
+        <h2>Hoodie collections</h2>
+        <button>view</button>
+      </div>
+    </div>
+
+    <!--second product category-->
+    <hr>
+    <div class="product-grid">
+      <div class="product">
+        <img src="WhatsApp Image 2023-03-11 at 23.24.08.jpeg" alt="Product 1">
+        <h2>Top Models</h2>
+        <button>view</button>
+      </div>
+<div class="product">
+        <img src="WhatsApp Image 2023-03-20 at 23.54.49.jpeg" alt="Product 1">
+        <h2>Top Model</h2>
+        <button>view</button>
+      </div>
+    </div>
+
+    <!--third product category-->
+    <hr>
+    <h1>Top Elite Shirts</h1>
+    <div class="product-grid">
+      <div class="product">
+        <img src="291053523_1131097777440191_9134457555315536235_n.jpg" alt="Product 3">
+        <h2>fast living</h2>
+        <button>view</button>
+      </div>
+
+<div class="product">
+        <img src="WhatsApp Image 2023-03-20 at 23.54.47.jpeg" alt="Product 1">
+        <h2>Elite shirt</h2>
+        <button>view</button>
+      </div>
+    </div>
+
+    <!--fourth product category-->
+    <hr>
+    <h1>Top Elite Caps</h1>
+    <p>Shop our latest headwears and gears:</p>
+    <div class="product-grid">
+      <div class="product">
+        <img src="WhatsApp Image 2023-03-11 at 23.23.44.jpeg" alt="Product 1">
+        <h2>Bean caps</h2>
+        <button>view</button>
+      </div>
+<div class="product">
+        <img src="WhatsApp Image 2023-03-21 at 14.13.34 (1).JPEG" alt="Product 1">
+        <h2>Top Beanies</h2>
+        <button>view</button>
+      </div>
+    </div>
+
+    <!--fifth product category-->
+    <hr>
+    <h1>footwares</h1>
+    <p>Shop our for our Exclusive slides:</p>
+    <div class="product-grid">
+      <div class="product">
+        <img src="product_1a.jpeg" alt="Product 1">
+        <h2>Exclusive slides</h2>
+        <button>view</button>
+      </div>
+    </div>
+  </main>
+	<hr>
+  <footer>
+    <div id="contacts">
+      <ul class="footer-social">
+        <li><a href="https://www.instagram.com/elitesmerch/">
+<img src="instagram (2).png" alt="instagram"></a></li>
+        <li><a href="tel:+2348090527647"><img src="old-typical-phone.png" alt="telephone"></a></li>
+        <li><a href="mailto:ELITEBYTOL@GMAIL.COM"><img src="email.png" alt="mail"></a></li>
+        <li><a href="https://wa.me/+2348090527647"><img src="whatsapp (1).png" alt="WhatsApp"></a></li>
+      </ul>
+    </div>
+    <img src="Ellipse 1.png" alt="Elite">
+    <p>Copyright &copy; 2023 All right Reserved <a href="#">MillyMilly</a> for Elite.</p>
+  </footer>
+</body>
+</html>
